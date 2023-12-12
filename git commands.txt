@@ -1,0 +1,62 @@
+https://pravash-techie.medium.com/git-all-you-need-to-know-15a559a5c95e
+
+git config --global --unset-all user.name
+git config --global --unset-all user.email
+
+git config --global user.name "Shruti Kalani"
+git config --global user.email "shrutikalani2002@gmail.com"
+
+git init
+
+git status
+
+git clone <url>
+
+git add .
+
+git commit -m "message"
+
+git merge <filename>
+
+git rebase <filename>
+
+git branch 
+
+git branch <branchname>
+
+git checkout <branchname>
+
+git checkout -b <branchname> 
+
+git branch -d <branchname>
+
+git rebase -i <commit hash code>
+
+git reset <hashcode> --soft  revert till staging
+
+git reset <hashcode> --hard removes from file system
+
+git restore
+
+git revert undoes previous commit and doesnt change previous commit history instead add new commit for undoing.
+
+git init source.git --bare
+
+
+---------------------------------------------------------------------------------------------------------------
+docker build -t [imagename] .
+
+docker images
+
+docker tag [imagename] shrutikalani19/newimagename:[new tag name]
+
+docker login
+
+docker push shrutikalani19/newimagename:new tag name
+
+docker pull shrutikalani19/newimagename:new tag name 
+
+docker ps -a 
+
+docker run --name containername imagename 
+
